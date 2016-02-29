@@ -18,7 +18,30 @@
 <body>
 <head>
 <title>Tech Hub</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<div class="center">
+	<script type="text/javascript"> 
+	var pictureArchive= ['Oculus_rift.jpeg','SamsungS7.jpg','SUHDTV.jpg']; 
 
+window.onload=function() { 
+ var o=document.createElement('img'); 
+ o.setAttribute('id', 'image'); 
+ o.setAttribute('src', pictureArchive[0]); 
+ o.setAttribute('alt', ''); 
+ document.body.appendChild(o); 
+ rotate(pictureArchive.length); 
+} 
+
+ 
+function rotate(idx) { 
+ if(idx>=pictureArchive.length) { 
+  idx=0; 
+ }
+ document.getElementById('image').src=pictureArchive[idx++];
+ timerID=setTimeout('rotate('+idx+')', 6000); 
+} 
+</script>
+</div>
 <link rel="Stylesheet" 	type="text/css"href="Stylesheet.css" />
 
 </head>
