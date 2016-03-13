@@ -25,9 +25,10 @@
 
 window.onload=function() { 
  var o=document.createElement('img'); 
- o.setAttribute('id', 'image'); 
+ o.setAttribute('id', 'image' ); 
  o.setAttribute('src', pictureArchive[0]); 
  o.setAttribute('alt', ''); 
+ o.setAttribute('border', '5');
  document.body.appendChild(o); 
  rotate(pictureArchive.length); 
 } 
@@ -42,13 +43,36 @@ function rotate(idx) {
 } 
 </script>
 </div>
-<link rel="Stylesheet" 	type="text/css"href="Stylesheet.css" />
+<link rel="Stylesheet" 	type="text/css"href="Stylesheet.css"/> 
+
 
 </head>
 
 
 <div id="page">
 <h1><b>TechHub</b></h1>
+<div class="img">
+  <a target="_blank" href="Oculus_rift.jpeg">
+    <img src="Oculus_rift.jpeg" alt="Oculus" width="600" height="400">
+  </a>
+  <div class="desc">The Oculus Rift, the foremost innovation in Virtual Reality Tech gor gamers.</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="SamsungS7.jpg">
+    <img src="SamsungS7.jpg" alt="s7" width="600" height="400">
+  </a>
+  <div class="desc">The newest Samsung smartphone model</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="SUHDTV.jpg">
+    <img src="SUHDTV.jpg" alt="SUHDTV" width="600" height="400">
+  </a>
+  <div class="desc">The Samsung UHD TV delievers the most realistic 4k experience yet.</div>
+</div>
+  
+
 
 </div>
 
