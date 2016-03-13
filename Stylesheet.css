@@ -71,7 +71,6 @@ body {
 	box-shadow: 1px 1px 4px 4px red;
 	}
 body {
-    
 	background-color:white;
 	}
 h1 {
@@ -98,64 +97,25 @@ html {
 	background-image:
 		linear-gradient(top, #000000 0%, #ff0000 100%);
 	}
+	div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+<style/>
 	
-/* This is where the buttons that display a pop up message when hovered over with the mouse appear */
-/* ////////////////////////////////////////////////////////////////////////////////////////////////*/
-.container
-{
-
-	/* Set a counter named cnt to 0 */
-	counter-reset: cnt;
-
-	position:relative;
-	image-orientation: left;
-	padding:10px 0;
-	width:550px;
-	height: 160px;
-	margin: 0 auto;
-}
-
-.container span
-{
-	display:inline-block;
-	padding:2px 6px;
-	background-color:#78CCD2;
-	color:#186C72;
-	border-radius:4px;
-	margin:3px;
-	cursor:default;
-}
-
-.container span::after
-{
-
-	counter-increment: cnt;
-
-	content:" #" counter(cnt);
-
-	display:inline-block;
-	padding:4px;
-}
-
-/* Colour of the text displayed below each box */
-.container span::before
-{
-	position:absolute;
-	bottom:75;
-	right:auto;
-	width:100%;
-	content:attr(data-title);
-    /*content:attr(data-image) */
-	color:#808;
-	opacity:0;
-
-    -webkit-transition:opacity 0.2s;
-	transition:opacity 0.5s;
-}
-
-.container span:hover::before
-{
-	opacity:1;
-}
-
-
