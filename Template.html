@@ -1,4 +1,5 @@
-<html>
+	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
 <div id="nav_bar">
 	<ul>
 		<li><a href="Template.html">Home</a></li>
@@ -16,21 +17,73 @@
 <h1><b><i></i></b></h1>
 <body>
 <head>
-<link rel="Stylesheet" 	type="text/css"href="Stylesheet.css" />
+<title>Tech Hub</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<div class="center">
+	<script type="text/javascript"> 
+	var pictureArchive= ['Oculus_rift.jpeg','SamsungS7.jpg','SUHDTV.jpg']; 
+
+window.onload=function() { 
+ var o=document.createElement('img'); 
+ o.setAttribute('id', 'image' ); 
+ o.setAttribute('src', pictureArchive[0]); 
+ o.setAttribute('alt', ''); 
+ o.setAttribute('border', '5');
+ document.body.appendChild(o); 
+ rotate(pictureArchive.length); 
+} 
+
+ 
+function rotate(idx) { 
+ if(idx>=pictureArchive.length) { 
+  idx=0; 
+ }
+ document.getElementById('image').src=pictureArchive[idx++];
+ timerID=setTimeout('rotate('+idx+')', 6000); 
+} 
+</script>
+</div>
+<link rel="Stylesheet" 	type="text/css"href="Stylesheet.css"/> 
+
+<img src="rssIcon.jpeg" alt="Rss Icon" width= "100" Height="100"/>
+<atom:link href="C:\Users\owner\Desktop\Main-Proj\RSS.xml" rel="Self" type="application/rss+xml"/>
+<a href="RSS.xml"> Technology-related RSS Feed </a>
 </head>
 
 
 <div id="page">
 <h1><b>TechHub</b></h1>
+<div class="img">
+  <a target="_blank" href="Oculus_rift.jpeg">
+    <img src="Oculus_rift.jpeg" alt="Oculus" width="600" height="400">
+  </a>
+  <div class="desc">The Oculus Rift, the foremost innovation in Virtual Reality Tech gor gamers.</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="SamsungS7.jpg">
+    <img src="SamsungS7.jpg" alt="s7" width="600" height="400">
+  </a>
+  <div class="desc">The newest Samsung smartphone model</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="SUHDTV.jpg">
+    <img src="SUHDTV.jpg" alt="SUHDTV" width="600" height="400">
+  </a>
+  <div class="desc">The Samsung UHD TV delievers the most realistic 4k experience yet.</div>
+</div>
+  
+
 
 </div>
 
+
+
 <div id="main">
-
-
+</div>
+    
 <div id="footer">
-
-
 </div>
 </body>
 </html>

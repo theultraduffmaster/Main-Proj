@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <?xml-stylesheet title="RSS" type="text/xsl" href="RSS.xslt"?> -->
+<rss version="2.0">
+<channel>
+<generator>RSS Builder by BSoft</generator>
+<title>Rss Feed</title>
+<link>file:///C:/Users/owner/Desktop/Main-Proj/Template.html</link>
+<description>Technology</description>
+<language>en-us</language>
+<item>
+<title>2016 Honda Civic: autonomous features for $20K</title>
+<pubDate>Sun, 20 Mar 2016 16:21:15 GMT</pubDate>
+<link>http://techcrunch.com/2016/03/18/2016-honda-civic-autonomous-features-for-20k/</link>
+<guid isPermaLink="false"> e65aaee3-4bd7-4115-84ae-2d510e1a4d64  </guid>
+<category>Technology</category>
+<description><![CDATA[When NHTSA announced yesterday that 20 manufacturers had agreed to include automatic emergency braking (AEB) systems as standard equipment on all new cars by 2022, many people noted that plenty of cars you can buy right now have this technology on board. You might think that in 2016, this is expensive equipment available only on luxury cars, but the Honda Civic sedan would beg to differ.]]></description>
+</item>
+<item>
+<title>2016 Honda Civic: autonomous features for $20K</title>
+<pubDate>Sun, 20 Mar 2016 16:21:15 GMT</pubDate>
+<guid isPermaLink="false"> 1c4a31f2-74a0-4e20-9d0e-556b3b4ee9ef </guid>
+<description><![CDATA[]]></description>
+</item>
+</channel>
+</rss>
