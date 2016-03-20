@@ -19,7 +19,9 @@
 <head>
 <link rel="Stylesheet" 	type="text/css"href="Stylesheet.css" />
     
-    
+ <img src="rssIcon.jpeg" alt="Rss Icon" width= "100" Height="100"/>
+<atom:link href="C:\Users\owner\Desktop\Main-Proj\RSS.xml" rel="Self" type="application/rss+xml"/>
+<a href="RSS.xml"> Computer-related RSS Feed </a>   
 </head>
     
     
@@ -35,10 +37,26 @@
 
 </div>
 <div id="main">
+    
+<button onclick="myFunction()">Enter User Name Here, Please!</button>
 
+<p id="UserName"></p>
 
+<script>
+function myFunction() 
+    {
+    var user = prompt("Enter your name", "name here");
+    
+    if (user != null) 
+    {
+        document.getElementById("UserName").innerHTML =
+         "Hello " + user + ", Welcome to our site!";
+    }
+        alert("Hello " + user + ", Welcome to our site!");
+}
+</script>
+    
 <form>
-
 
 <div>
 <BR>
@@ -103,7 +121,9 @@ Please rate our website out of five:
 <div id="footer">
 
 </div>
-
+    
+    <a href="#top"><b><Go to top</b></a>
+    
 </body>
 </html>
 
