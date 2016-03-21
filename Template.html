@@ -50,8 +50,15 @@ function myFunction()
     {
     var user = prompt("Enter your name", "name here");
     
-    if (user != null) 
+    if (user != "") 
     {
+        document.getElementById("UserName").innerHTML =
+         "Hello " + user + ", Welcome to our site!";
+    }
+    if (user = "")
+    {
+        var user = prompt("Enter your name", "name here");
+        
         document.getElementById("UserName").innerHTML =
          "Hello " + user + ", Welcome to our site!";
     }

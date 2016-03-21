@@ -91,8 +91,16 @@ Please rate our website out of five:
 <input type="radio" name="AppSource" value=4>****
 <input type="radio" name="AppSource" value=4>*****
 
-<TD><INPUT TYPE="SUBMIT" VALUE="Send Form"></TD>
-<TD><INPUT TYPE="RESET" VALUE="Clear"></TD>
+<button onclick="sendFunction()">Send Form</button>
+    
+<script>
+function sendFunction() 
+{
+    alert("Thank you for answering the survey!");   
+}
+</script>    
+    
+<button onclick="clearFunction()">Clear</button>
 
 </form>
 
