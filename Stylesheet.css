@@ -163,12 +163,12 @@ div.desc {
 .container span::before
 {
 	position:absolute;
-	bottom:75;
+	bottom:0;
 	right:auto;
 	width:100%;
 	content:attr(data-title);
     /*content:attr(data-image) */
-	color:#808;
+	color:#465;
 	opacity:0;
 
     -webkit-transition:opacity 0.2s;
@@ -179,7 +179,5 @@ div.desc {
 {
 	opacity:1;
 }
-
-	
 <style/>
 	
