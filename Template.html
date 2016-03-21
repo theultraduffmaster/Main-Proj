@@ -17,11 +17,13 @@
 <h1><b><i></i></b></h1>
 <body>
 <head>
-<<<<<<< HEAD
 <title>Tech Hub</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <button onclick="myFunction()">Enter User Name Here, Please!</button>
+    <p id="UserName"></p>
 <div class="center">
 	<script type="text/javascript"> 
+
 	var pictureArchive= ['Oculus_rift.jpeg','SamsungS7.jpg','SUHDTV.jpg']; 
 
 window.onload=function() { 
@@ -42,84 +44,92 @@ function rotate(idx) {
  document.getElementById('image').src=pictureArchive[idx++];
  timerID=setTimeout('rotate('+idx+')', 6000); 
 } 
+        
+        
+function myFunction() 
+    {
+    var user = prompt("Enter your name", "name here");
+    
+    if (user != null) 
+    {
+        document.getElementById("UserName").innerHTML =
+         "Hello " + user + ", Welcome to our site!";
+    }
+        alert("Hello " + user + ", Welcome to our site!");
+}
+
 </script>
 </div>
 <link rel="Stylesheet" 	type="text/css"href="Stylesheet.css"/> 
 
-<img src="rssIcon.jpeg" alt="Rss Icon" width= "100" Height="100"/>
+<img src="rssIcon.jpeg" alt="Rss Icon" width= "20" Height="20"/>
 <atom:link href="C:\Users\owner\Desktop\Main-Proj\RSS.xml" rel="Self" type="application/rss+xml"/>
 <a href="RSS.xml"> Technology-related RSS Feed </a>
-=======
-<title>Tech Hub</title> 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<link rel="Stylesheet" 	type="text/css"href="Stylesheet.css" />
-
->>>>>>> origin/master
 </head>
 
 
 <div id="page">
 <h1><b>TechHub</b></h1>
-<div class="img">
-  <a target="_blank" href="Oculus_rift.jpeg">
+    <footer>
+    <h3>Welcome To TechHub<img src="TechHub.png" height="100" width="100"/></h3>
+    <p>
+        
+    </p>
+    <p>
+    <div class="container">
+	<span data-title="ONE">Random Fact</span>
+	<span data-title="TWO">Random Fact</span>
+	<span data-title="THREE">Random Fact</span>
+	<span data-title="FOUR">Random Fact</span>
+    <span data-title="FIVE">Random Fact</span>
+    <span data-title="SIX">Random Fact</span>
+    <span data-title="SEVEN">Random Fact</span>
+	<span data-title="EIGHT">Random Fact</span>
+</p>
+        </footer>
+    
+    <h2>Featured Articles</h2>
+    
+<div class="img">  
+  <a target="_blank" href="Oculus_Rift.html">
     <img src="Oculus_rift.jpeg" alt="Oculus" width="600" height="400">
   </a>
-  <div class="desc">The Oculus Rift, the foremost innovation in Virtual Reality Tech gor gamers.</div>
+  <div class="desc">The Oculus Rift, the foremost innovation in Virtual Reality Tech for gamers.</div>
 </div>
 
 <div class="img">
-  <a target="_blank" href="SamsungS7.jpg">
+  <a target="_blank" href="Samsungs7.html">
     <img src="SamsungS7.jpg" alt="s7" width="600" height="400">
   </a>
   <div class="desc">The newest Samsung smartphone model</div>
 </div>
 
-<<<<<<< HEAD
 <div class="img">
-  <a target="_blank" href="SUHDTV.jpg">
+  <a target="_blank" href="SUHDTV.html">
     <img src="SUHDTV.jpg" alt="SUHDTV" width="600" height="400">
   </a>
   <div class="desc">The Samsung UHD TV delievers the most realistic 4k experience yet.</div>
+    
+    
+    
 </div>
   
 
 
 </div>
 
-=======
 
 
 <div id="main">
 
 </div>
 <div id="footer">
->>>>>>> origin/master
 
 
-<div id="main">
 </div>
     
-<div id="footer">
 </div>
 </body>
+    
 </html>
 
