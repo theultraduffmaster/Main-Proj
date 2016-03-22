@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="RSS.xslt" media="screen"?>
+<rss version="2.0">
+  <channel>
+    <generator>RSS Builder by B!Soft</generator>
+    <title>PCs</title>
+    <link>file:///C:/Users/owner/Desktop/Main-Proj/TVs.html</link>
+    <description>Computer-Related</description>
+    <language>en-us</language>
+    <image>
+      <title>PCs</title>
+      <link>file:///C:/Users/owner/Desktop/Main-Proj/TVs.html</link>
+      <url>http://o.aolcdn.com/dims-global/dims3/GLOB/resize/1269x563/quality/80/http://tctechcrunch2011.files.wordpress.com/2007/04/samcon1.jpg</url>
+      <width>40</width>
+      <height>40</height>
+    </image>
+    <item>
+      <title>Hybrid 2-in-1s will represent a fifth of all PCs by 2020</title>
+      <pubDate>Mon, 21 Mar 2016 17:15:14 GMT</pubDate>
+      <link>http://www.techradar.com/news/mobile-computing/tablets/hybrid-2-in-1s-will-represent-a-fifth-of-all-pcs-by-2020-1317376</link>
+      <category>PCs</category>
+      <description><![CDATA[According to new figures from IDC, which reinforce previous reports from the analyst firm (and indeed other bean counters), 2-in-1 notebooks are going to represent a large chunk of the European PC market in just over a few years' time.]]></description>
+    </item>
+    <item>
+      <title>THE 10 BEST GAMING KEYBOARDS FOR 2016</title>
+      <pubDate>Mon, 21 Mar 2016 16:40:53 GMT</pubDate>
+      <link>http://ie.ign.com/articles/2016/01/22/the-10-best-gaming-keyboards-of-2016-picked-by-pcmag</link>
+      <category>PCs</category>
+      <description><![CDATA[It's still early in the year but our sister site PCMag has already complied a list of its favorite gaming keyboards for 2016. Obviously this list will change throughout the year with new releases and updates, but these are the best picks so far.]]></description>
+    </item>
+    <item>
+      <title>Samsung (?) Concept PCs: The Future of Computers Looks Lame</title>
+      <pubDate>Mon, 21 Mar 2016 15:00:16 GMT</pubDate>
+      <link>http://techcrunch.com/2007/04/16/samsung-concept-pcs-the-future-of-computers-looks-lame/</link>
+      <guid isPermaLink="false"> b7088ae1-cf29-4ec0-92a2-ac6617e51b58 </guid>
+      <category>PCs</category>
+      <description><![CDATA[Allegedly these PC conceptualizations are from Samsung, though I have my doubts—if they’re not, then someone else deserves credit for the least attractive concepts I’ve seen in a while. Shame, too, since we had so many decent ones lately.]]></description>
+    </item>
+  </channel>
+</rss>

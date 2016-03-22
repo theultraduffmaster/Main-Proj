@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="RSS.xslt" media="screen"?>
+<rss version="2.0">
+  <channel>
+    <generator>RSS Builder by B!Soft</generator>
+    <title>Gaming</title>
+    <link>file:///C:/Users/owner/Desktop/Main-Proj/Gaming.html</link>
+    <description>Gaming-Related</description>
+    <language>en-us</language>
+    <item>
+      <title>This could be our first look at the Nintendo NX console</title>
+      <pubDate>Mon, 21 Mar 2016 17:12:24 GMT</pubDate>
+      <link>http://www.techradar.com/news/gaming/this-could-be-our-first-look-at-the-nintendo-nx-console-1317345</link>
+      <category>Gaming</category>
+      <description><![CDATA[The word on the Nintendo street is that the images on the controller will change to match the game you're playing, enabling the device to display context-sensitive buttons that shift depending on the actions you need at the time.]]></description>
+    </item>
+    <item>
+      <title>PlayStation VR vs PC Oculus Rift vs Vive Comparison Chart</title>
+      <pubDate>Mon, 21 Mar 2016 16:32:58 GMT</pubDate>
+      <link>http://ie.ign.com/wikis/playstation-4/PlayStation_VR_vs_PC_Oculus_Rift_vs_Vive_Comparison_Chart</link>
+      <category>Gaming</category>
+      <description><![CDATA[Next-generation gaming platforms are introducing new virtual reality peripherals designed to enhance users interaction with games. This page compares Sony's PlayStation VR headset, (formerly Project Morpheus) with Oculus VR's Oculus Rift for PC and the HTC Vive.]]></description>
+    </item>
+    <item>
+      <title>YouTube Gaming</title>
+      <pubDate>Mon, 21 Mar 2016 14:25:27 GMT</pubDate>
+      <link>http://techcrunch.com/2016/03/10/youtube-gaming-expands-to-new-markets-improves-its-browsing-and-viewing-experience-on-mobile/</link>
+      <guid isPermaLink="false"> 72fcabaf-41e1-4988-a046-34443a491184 </guid>
+      <category>Gaming</category>
+      <description><![CDATA[YouTube Gaming expands to new markets, improves its browsing and viewing experience on mobile]]></description>
+    </item>
+  </channel>
+</rss>
