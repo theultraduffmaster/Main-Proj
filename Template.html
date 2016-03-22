@@ -38,16 +38,18 @@ function rotate(idx) {
  if(idx>=pictureArchive.length) { 
   idx=0; 
  }
- document.getElementById('image').src=pictureArchive[idx++];
+ document.getElementById('image').src=pictureArchive[idx++]; 
  timerID=setTimeout('rotate('+idx+')', 6000); 
 } 
 </script>
 </div>
 <link rel="Stylesheet" 	type="text/css"href="Stylesheet.css"/> 
 
-<img src="rssIcon.jpeg" alt="Rss Icon" width= "100" Height="100"/>
+<img src="rssIcon.jpeg" alt="Rss Icon" width= "20" Height="20"/>
 <atom:link href="C:\Users\owner\Desktop\Main-Proj\RSS.xml" rel="Self" type="application/rss+xml"/>
 <a href="RSS.xml"> Technology-related RSS Feed </a>
+<title>Tech Hub</title> 
+<link rel="Stylesheet" 	type="text/css"href="Stylesheet.css" />
 </head>
 
 
@@ -57,7 +59,7 @@ function rotate(idx) {
   <a target="_blank" href="Oculus_rift.jpeg">
     <img src="Oculus_rift.jpeg" alt="Oculus" width="600" height="400">
   </a>
-  <div class="desc">The Oculus Rift, the foremost innovation in Virtual Reality Tech gor gamers.</div>
+  <div class="desc">The Oculus Rift, the foremost innovation in Virtual Reality Tech for gamers.</div>
 </div>
 
 <div class="img">
@@ -78,6 +80,11 @@ function rotate(idx) {
 
 </div>
 
+
+<div id="main">
+
+</div>
+<div id="footer">
 
 
 <div id="main">

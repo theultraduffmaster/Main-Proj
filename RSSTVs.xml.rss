@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="RSS.xslt" media="screen"?>
+<rss version="2.0">
+  <channel>
+    <generator>RSS Builder by B!Soft</generator>
+    <title>TVs</title>
+    <link>file:///C:/Users/owner/Desktop/Main-Proj/TVs.html</link>
+    <description>TVs</description>
+    <language>en-us</language>
+    <item>
+      <title>Smart TV in 2016: How Android TV, webOS + others are changing the game</title>
+      <pubDate>Mon, 21 Mar 2016 17:09:49 GMT</pubDate>
+      <link>http://www.techradar.com/news/television/how-android-tv-webos-firefox-os-and-tizen-powered-smart-tv-into-a-new-age-1279578</link>
+      <category>TVs</category>
+      <description><![CDATA[The world of Smart TV was an absolute shambles for years. Interfaces were hugely shonky and features clunky, but 2016 looks set to be the year that Smart TVs finally come of age.
+
+Though the technologies have been around for a few years now, 2016 could finally be the year that the existing platforms mature and make a truly compelling offer to the consumer.]]></description>
+    </item>
+    <item>
+      <title>LG's newest TVs are very, very thin</title>
+      <pubDate>Mon, 21 Mar 2016 16:26:52 GMT</pubDate>
+      <link>http://ie.ign.com/articles/2015/08/26/lgs-flat-4k-oled-tvs-go-on-sale-this-month</link>
+      <category>TVs</category>
+      <description><![CDATA[In a press release, the Korean company announced that it's set to release four brand new OLED TVs before the end of August, with two of those TVs being the 65- and 55-inch 4K EF9500 units, the industry’s first flat 4K TVs that feature OLED displays.
+
+]]></description>
+    </item>
+    <item>
+      <title>Skype is killing its smart TV app</title>
+      <pubDate>Mon, 21 Mar 2016 15:50:11 GMT</pubDate>
+      <link>http://techcrunch.com/2016/03/08/skype-is-killing-its-smart-tv-app/</link>
+      <guid isPermaLink="false"> c98060db-c7da-404b-956a-9efd8ae11e0b </guid>
+      <category>Technology</category>
+      <description><![CDATA[Over the years, users have changed the way they use Skype, with the majority accessing it from a mobile device – including when in the living room. We want to make sure we prioritize delivering the best possible experience to the platforms our users are asking for, which is why we’ve decided to focus our efforts in other areas while supporting key functionality on Skype for TV for as long as possible.]]></description>
+    </item>
+  </channel>
+</rss>
