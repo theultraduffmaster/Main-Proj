@@ -14,5 +14,5 @@ We use:
 4. Surveys included
 5. User enters in username
 6. HTML for hovering over a button and text appears
-7. JavaScript tp create a "slideshow effect" cycling through photos automatically
+7. JavaScript to create a "slideshow effect" cycling through photos automatically
 8. CSS to create a very uniform look and feel for the website
